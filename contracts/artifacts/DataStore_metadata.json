@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "alamat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "tanggalLahir",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "jenisKelamin",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_alamat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tanggallahir",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_jeniskelamin",
+						"type": "string"
+					}
+				],
+				"name": "storeData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DataStore.sol": "DataStore"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DataStore.sol": {
+			"keccak256": "0x4bf1bc0aaec777e7c1d2dda962e34799ae7f1a68c7cb0a03dc8f5b412baf6c7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef50553ee67caa67b85a8b441b3d232542e9160b4f5cd70be1b3f65582e2f23d",
+				"dweb:/ipfs/QmaYWYgj4TaWsxyCpuj8HcXZu1SUBVe5dKWtPUUXoW6TFM"
+			]
+		}
+	},
+	"version": 1
+}

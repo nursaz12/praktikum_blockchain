@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfstorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Praktikum2/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Praktikum2/SimpleStorage.sol": {
+			"keccak256": "0x6b6e3cba8a2bf8c3627c23672321efd2005dafa9fffb19bc4e1c96d3834d4cce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e48fe84bf4427b512106b1178f1f73cfb658db2b084199ab7d22da5c6b1b7663",
+				"dweb:/ipfs/QmYRNWKkt71NvBWjkzcszH6kX6tiuCANHzJ3vJzXTzxXkn"
+			]
+		},
+		"contracts/Praktikum2/StorageFactory.sol": {
+			"keccak256": "0x4d986d93546f3e68f61c3159f3dfecb0297274404264d89e82482eaa58685771",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc2e1a88a36a2ff11268109198cdddead650ff51dc71b35df06a62415c246ae8",
+				"dweb:/ipfs/QmbKUYrrCLzJq1LfCse8H187AGF6S5AViRJTCSWK8JyUUZ"
+			]
+		}
+	},
+	"version": 1
+}

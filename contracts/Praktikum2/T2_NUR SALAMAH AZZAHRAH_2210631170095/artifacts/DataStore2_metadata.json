@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "storeData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Praktikum2/T2_NUR SALAMAH AZZAHRAH_2210631170095/DataStore2.sol": "DataStore2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Praktikum2/T2_NUR SALAMAH AZZAHRAH_2210631170095/DataStore1.sol": {
+			"keccak256": "0xe3c7ae38d9b2450b17b0a0f528758cf4b2603c696d93156e39380296245f9e93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://436313f1152ad686ab5f562a86da7eda73ec9e69f2eb39d371b039a8163ca5cc",
+				"dweb:/ipfs/QmTCDzaiE7axSZzEMSGx7TwVhtwdhYtK42WjyTXEpGPkvF"
+			]
+		},
+		"contracts/Praktikum2/T2_NUR SALAMAH AZZAHRAH_2210631170095/DataStore2.sol": {
+			"keccak256": "0xd62829924975987b731eea29d2f471325cf6742f50d4996636cc0beb6fdf2a5f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5ad74c1c9179defd4ab3c9e4f25825d7000c2ca51257c5c612c64982a7580a1e",
+				"dweb:/ipfs/QmaqWWMSkG2ZUG198sUJStVT5LpRetcCWYuESKQaE7DVfe"
+			]
+		}
+	},
+	"version": 1
+}
